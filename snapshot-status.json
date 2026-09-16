@@ -1,0 +1,290 @@
+[
+  {
+    "name": "Artrovo Gundam",
+    "url": "https://artrovogundam.com/",
+    "image": "assets/projects/artrovogundam-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Solstitch",
+    "url": "https://solstitch.com/",
+    "image": "assets/projects/solstitch-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Howdyland",
+    "url": "https://howdylandshop.com/",
+    "image": "assets/projects/howdylandshop-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Wholesale Moulding",
+    "url": "https://wholesalemoulding.ca/",
+    "image": "assets/projects/wholesalemoulding-ca.png",
+    "status": "captured"
+  },
+  {
+    "name": "Mía Fiber",
+    "url": "https://miafiber.com/",
+    "image": "assets/projects/miafiber-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "2 Hands Pickleball",
+    "url": "https://2handspickleball.com/",
+    "image": "assets/projects/2handspickleball-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "LapDraw",
+    "url": "https://lapdraw.com/",
+    "image": "assets/projects/lapdraw-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "PASQ",
+    "url": "https://pasq.com.au/",
+    "image": "assets/projects/pasq-com-au.png",
+    "status": "captured"
+  },
+  {
+    "name": "Charlington Knot",
+    "url": "https://charlingtonknot.com/",
+    "image": "assets/projects/charlingtonknot-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "TN Brows & Lashes",
+    "url": "https://tnbrowsandlashes.com/",
+    "image": "assets/projects/tnbrowsandlashes-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Cornerstone Academics",
+    "url": "https://cornerstoneacademics.co/",
+    "image": "assets/projects/cornerstoneacademics-co.png",
+    "status": "captured"
+  },
+  {
+    "name": "The Paw Spot",
+    "url": "https://thepawspot.co/",
+    "image": "assets/projects/thepawspot-co.png",
+    "status": "captured"
+  },
+  {
+    "name": "Luneva",
+    "url": "https://lunevaonline.com/",
+    "image": "assets/projects/lunevaonline-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Liquor Boutique",
+    "url": "https://liquorboutique.com/",
+    "image": "assets/projects/liquorboutique-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "VenturePal",
+    "url": "https://venturepal.com/",
+    "image": "assets/projects/venturepal-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Little Bubbaz",
+    "url": "https://www.littlebubbaz.com/",
+    "image": "assets/projects/littlebubbaz-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Venati",
+    "url": "https://venati.pet/",
+    "image": null,
+    "status": "password-protected"
+  },
+  {
+    "name": "Zymoria",
+    "url": "https://zymoria.com/",
+    "image": "assets/projects/zymoria-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Kaur & Company",
+    "url": "https://kaurandcompany.com/",
+    "image": "assets/projects/kaurandcompany-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Figurebuilt",
+    "url": "https://www.figurebuilt.com/",
+    "image": "assets/projects/figurebuilt-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Go Padel",
+    "url": "https://shop.gopadel.ch/",
+    "image": "assets/projects/shop-gopadel-ch.png",
+    "status": "captured"
+  },
+  {
+    "name": "Shopify storefront",
+    "url": "https://bae0bc-2q.myshopify.com/",
+    "image": null,
+    "status": "password-protected"
+  },
+  {
+    "name": "Pappi’s Sea Moss Company",
+    "url": "https://pappisseamosscompany.com/",
+    "image": "assets/projects/pappisseamosscompany-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Eden Shop",
+    "url": "https://eden-shop.xyz/",
+    "image": "assets/projects/eden-shop-xyz.png",
+    "status": "captured"
+  },
+  {
+    "name": "Seymour Weaver MD",
+    "url": "https://seymourweavermd.com/",
+    "image": "assets/projects/seymourweavermd-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Deluxe Elixir",
+    "url": "https://deluxeelixir.com/",
+    "image": "assets/projects/deluxeelixir-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Bolot Studio",
+    "url": "https://bolotstudio.com/",
+    "image": "assets/projects/bolotstudio-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Tibet Tree of Life",
+    "url": "https://tibettreeoflife.com/",
+    "image": "assets/projects/tibettreeoflife-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Hair Rescue",
+    "url": "https://www.hairrescue.shop/",
+    "image": "assets/projects/hairrescue-shop.png",
+    "status": "captured"
+  },
+  {
+    "name": "Bon Bon Deco",
+    "url": "https://bonbondeco.com/",
+    "image": "assets/projects/bonbondeco-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Scorpion Pickleball",
+    "url": "https://scorpionpickleballusa.com/",
+    "image": "assets/projects/scorpionpickleballusa-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Novabasi",
+    "url": "https://novabasi.com/",
+    "image": "assets/projects/novabasi-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Acadia Counseling",
+    "url": "https://acadiacounseling.com/",
+    "image": "assets/projects/acadiacounseling-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "TRT Optima",
+    "url": "https://trtoptima.co/",
+    "image": "assets/projects/trtoptima-co.png",
+    "status": "captured"
+  },
+  {
+    "name": "Fiske Direkt",
+    "url": "https://fiskedirekt.se/",
+    "image": "assets/projects/fiskedirekt-se.png",
+    "status": "captured"
+  },
+  {
+    "name": "GlamorSnap",
+    "url": "https://glamorsnap.com/",
+    "image": "assets/projects/glamorsnap-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "PickleSwag Gear",
+    "url": "https://pickleswag-gear.com/",
+    "image": "assets/projects/pickleswag-gear-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Rebecca’s Essentials",
+    "url": "https://www.rebeccasessentials.com/",
+    "image": "assets/projects/rebeccasessentials-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Darseys",
+    "url": "https://darseys.com/",
+    "image": "assets/projects/darseys-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Nadine Collins",
+    "url": "https://nadinecollins.com/",
+    "image": "assets/projects/nadinecollins-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "MFC Family",
+    "url": "https://mfcfamily.com/",
+    "image": "assets/projects/mfcfamily-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Annie Frances Pen",
+    "url": "https://anniefrancespen.com/",
+    "image": "assets/projects/anniefrancespen-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "Pikes NW",
+    "url": "https://pikesnw.com/",
+    "image": "assets/projects/pikesnw-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "WordPress project · XBX",
+    "url": "https://xbx.her.mybluehost.me/",
+    "image": "assets/projects/xbx-her-mybluehost-me.png",
+    "status": "captured"
+  },
+  {
+    "name": "WiseQuest CRE",
+    "url": "https://wisequestcre.com/",
+    "image": "assets/projects/wisequestcre-com.png",
+    "status": "captured"
+  },
+  {
+    "name": "WordPress project · PAS",
+    "url": "https://pas.aml.mybluehost.me/",
+    "image": null,
+    "status": "certificate-error"
+  },
+  {
+    "name": "Fundamental Fitness",
+    "url": "https://fundamentalfitness.club/",
+    "image": "assets/projects/fundamentalfitness-club.png",
+    "status": "captured"
+  },
+  {
+    "name": "Betec Group",
+    "url": "https://www.betecgroup.com/",
+    "image": "assets/projects/betecgroup-com.png",
+    "status": "captured"
+  }
+]
