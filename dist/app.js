@@ -1,4 +1,4 @@
-const favicon=document.querySelector('link[rel="icon"]');if(favicon)favicon.href='assets/wokaya-logo.png';
+document.title='Wokaya Thoughtful websites. Better business.';const favicon=document.querySelector('link[rel="icon"]');if(favicon)favicon.href='assets/wokaya-logo.png';
 document.querySelectorAll('.brand').forEach(brand=>{brand.textContent='';const logo=document.createElement('img');logo.className='brand-logo';logo.src='assets/wokaya-logo.png';logo.alt='Wokaya logo';brand.append(logo)});
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');let paused=reduced.matches;
 const motion=document.querySelector('#motion');function updateMotion(){document.documentElement.classList.toggle('motion-paused',paused);motion.setAttribute('aria-pressed',String(paused));motion.textContent=paused?'Play motion ▷':'Pause motion Ⅱ'}motion.addEventListener('click',()=>{paused=!paused;updateMotion()});reduced.addEventListener('change',()=>{paused=reduced.matches;updateMotion()});updateMotion();
