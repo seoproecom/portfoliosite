@@ -1,3 +1,4 @@
+.status{display:none!important}
 section.hero .hero-bottom{justify-content:center}.hero-bottom>span{display:none}
 /* Removed motion control icon. */
 #motion::before,#motion[aria-pressed=true]::before{content:none!important}
