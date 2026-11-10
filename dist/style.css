@@ -72,74 +72,15 @@ section.hero .hero-bottom{justify-content:center}.hero-bottom>span{display:none}
   .seo-offerings { grid-template-columns: 1fr; }
 }
 
-/* Selected Fiverr reviews. */
-.testimonial {
-  grid-template-columns: minmax(180px, .75fr) minmax(0, 2fr);
-  align-items: start;
-  gap: 32px clamp(28px, 5vw, 75px);
+/* The original single Fiverr testimonial. */
+.testimonial blockquote { margin: 0; position: relative; padding-top: 27px; }
+.quote-mark { font: 80.5px 'Instrument Serif', serif; line-height: 1; position: absolute; top: -14px; color: #b18dcb; }
+.testimonial blockquote>p { font: 400 35.65px/1.45 Manrope, sans-serif; letter-spacing: -.9px; margin-bottom: 28px; }
+.testimonial blockquote footer { display: flex; gap: 12px; align-items: center; }
+@media (max-width: 1000px) {
+  .testimonial blockquote>p { font-size: 28.75px; }
 }
-.review-score h2 { margin: 0; }
-.review-card {
-  min-width: 0;
-  padding: clamp(22px, 3vw, 40px);
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  background: var(--paper);
-}
-.review-slides { display: grid; }
-.review-slide {
-  grid-area: 1 / 1;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  justify-items: start;
-  min-width: 0;
-  visibility: hidden;
-}
-.review-slide.is-current { visibility: visible; }
-.review-slide .eyebrow { margin: 0 0 14px; }
-.review-summary {
-  margin: 0 0 18px;
-  font: 500 clamp(21px, 2.3vw, 32px)/1.45 Manrope, sans-serif;
-  letter-spacing: -.025em;
-  color: var(--ink);
-}
-.review-byline { display: flex; gap: 10px; align-items: center; }
-.review-byline > div:last-child { min-width: 0; overflow-wrap: anywhere; }
-.review-avatar { flex: 0 0 35px; }
-.testimonial footer .review-rating span[aria-hidden] {
-  color: #7534a7;
-  letter-spacing: 1px;
-}
-.review-source { margin-top: 18px; }
-.review-slider-controls:not([hidden]) {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 10px;
-  margin-top: 20px;
-  padding-top: 16px;
-  border-top: 1px solid var(--line);
-}
-.review-count { margin-right: auto; color: #61546f; font-size: 13px; }
-.review-slider-controls button {
-  display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  padding: 0;
-  border: 1px solid #b79bcc;
-  border-radius: 50%;
-  background: transparent;
-  color: #553169;
-  font-size: 19px;
-  cursor: pointer;
-}
-.review-slider-controls button:is(:hover, :focus-visible) {
-  background: #553169;
-  border-color: #553169;
-  color: white;
-}
-.review-note { margin: 12px 0 0; color: #61546f; font-size: 12px; }
 @media (max-width: 700px) {
-  .testimonial { grid-template-columns: 1fr; }
+  .testimonial { grid-template-columns: 1fr; gap: 42px; }
+  .testimonial blockquote>p { font-size: 27.6px; line-height: 1.5; }
 }
