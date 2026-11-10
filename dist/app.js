@@ -12,3 +12,29 @@ document.querySelectorAll('.questions details').forEach(detail=>detail.addEventL
 const archiveCards=[...document.querySelectorAll('.archive-card')],archiveFilters=[...document.querySelectorAll('[data-filter]')],projectSearch=document.querySelector('#project-search'),moreWrap=document.querySelector('.archive-more'),moreButton=document.querySelector('#show-projects'),emptyState=document.querySelector('.archive-empty');let projectFilter='All',projectsExpanded=false;
 function filterProjects(){const query=projectSearch.value.trim().toLowerCase();const matched=archiveCards.filter(card=>(projectFilter==='All'||card.dataset.platforms.split(' ').includes(projectFilter))&&card.dataset.search.includes(query));const limit=projectsExpanded?matched.length:12;archiveCards.forEach(card=>card.hidden=true);matched.slice(0,limit).forEach(card=>card.hidden=false);document.querySelector('#archive-status').textContent=`Showing ${Math.min(limit,matched.length)} of ${matched.length} ${projectFilter==='All'?'':projectFilter+' '}projects`;emptyState.hidden=matched.length>0;moreWrap.hidden=matched.length<=12;moreButton.innerHTML=projectsExpanded?'Show fewer projects <span>↑</span>':`Show all ${matched.length} projects <span>↓</span>`;archiveFilters.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.filter===projectFilter)));}
 archiveFilters.forEach(button=>button.addEventListener('click',()=>{projectFilter=button.dataset.filter;projectsExpanded=false;filterProjects()}));projectSearch.addEventListener('input',()=>{projectsExpanded=false;filterProjects()});moreButton.addEventListener('click',()=>{projectsExpanded=!projectsExpanded;filterProjects();if(!projectsExpanded)document.querySelector('#portfolio').scrollIntoView({behavior:paused?'instant':'smooth',block:'start'})});document.querySelector('#reset-projects').addEventListener('click',()=>{projectFilter='All';projectsExpanded=false;projectSearch.value='';filterProjects();projectSearch.focus()});filterProjects();
+
+
+const reviewSlides = [...document.querySelectorAll('.review-slide')];
+const reviewControls = document.querySelector('.review-slider-controls');
+if (reviewControls && reviewSlides.length > 1) {
+  const reviewCount = reviewControls.querySelector('.review-count');
+  const reviewAnnouncement = document.querySelector('.review-announcement');
+  let currentReview = 0;
+
+  function changeReview(step) {
+    reviewSlides[currentReview].classList.remove('is-current');
+    currentReview = (currentReview + step + reviewSlides.length) % reviewSlides.length;
+    const slide = reviewSlides[currentReview];
+    slide.classList.add('is-current');
+    reviewCount.textContent = `Review ${currentReview + 1} of ${reviewSlides.length}`;
+    const author = slide.querySelector('.review-byline strong').textContent;
+    const gig = slide.querySelector('.eyebrow').textContent.toLowerCase();
+    const summary = slide.querySelector('.review-summary').textContent;
+    reviewAnnouncement.textContent = `${reviewCount.textContent}. ${author}. ${gig}. ${summary}`;
+  }
+
+  reviewControls.querySelector('.review-prev').addEventListener('click', () => changeReview(-1));
+  reviewControls.querySelector('.review-next').addEventListener('click', () => changeReview(1));
+  reviewCount.textContent = `Review 1 of ${reviewSlides.length}`;
+  reviewControls.hidden = false;
+}
